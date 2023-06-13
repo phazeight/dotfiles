@@ -227,8 +227,6 @@ export PATH=/Users/lthompson/go/bin:$PATH
 
 export VAULT_ADDR=https://vault.production.control.uptake.run
 
-export GITHUB_TOKEN=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
-
 export _ZO_ECHO='1'
 
 complete -C '/usr/local/bin/aws_completer' aws
