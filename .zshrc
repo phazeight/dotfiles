@@ -227,10 +227,6 @@ export PATH=/Users/lthompson/go/bin:$PATH
 
 export VAULT_ADDR=https://vault.production.control.uptake.run
 
-export NEW_RELIC_REGION=US
-
-export NEW_RELIC_API_KEY=NRAK-TK0FP9JPWRN5LENIGCITG5AXCG3
-
 export GITHUB_TOKEN=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
 
 export _ZO_ECHO='1'
