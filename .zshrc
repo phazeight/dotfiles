@@ -11,7 +11,7 @@ export ZSH="/Users/lthompson/.oh-my-zsh"
 
 eval "$(zoxide init zsh)"
 
-ssh-add --apple-load-keychain -q
+# ssh-add --apple-load-keychain -q
 
 autoload bashcompinit && bashcompinit
 source /usr/local/etc/bash_completion.d/az
