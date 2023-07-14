@@ -292,7 +292,7 @@ alias tfc='rm -rf .terraform && ll'
 
 alias tff='cd ~/repos/cloud-scaffolding/ && terraform fmt -recursive ./'
 
-alias sshme='ssh-add --apple-use-keychain ~/.ssh/id_ed25519 & ssh-add ~/.ssh/id_rsa'
+alias sshme='ssh-add ~/.ssh/id_ed25519 & ssh-add ~/.ssh/id_rsa'
 
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 
