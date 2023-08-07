@@ -31,7 +31,7 @@ alias path='echo "$PATH" | tr ":" "\n" | nl'
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="gnzh"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,7 +105,7 @@ plugins=(
   zsh-autosuggestions 
 
   # aws cli autocompletions https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/aws
-  aws 
+  aws
 
   # color man pages https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/colored-man-pages
   colored-man-pages 
@@ -217,7 +217,7 @@ source <(kubectl completion zsh)
 
 export PATH=/usr/local/bin/aws_completer:$PATH
 
-PROMPT="$fg[cyan]%}$USER@%{$fg[blue]%}%m ${PROMPT}"
+# PROMPT="$fg[cyan]%}$USER@%{$fg[blue]%}%m ${PROMPT}"
 
 export PATH=/Users/lthompson/repos/ops/bin:$PATH
 
@@ -239,7 +239,7 @@ alias lg='lazygit'
 
 export PATH="/Users/lthompson/repos/scripts:${PATH}"
 
-export GITHUB_TOKEN=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
+
 
 up_ssh () {
     tsh --proxy=teleport.production.control.uptake.run ssh -l centos "$@"
@@ -309,3 +309,5 @@ setopt histignorespace           # skip cmds w/ leading space from history
 export HSTR_CONFIG=hicolor       # get more colors
 bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
