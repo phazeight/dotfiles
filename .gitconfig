@@ -1,8 +1,8 @@
 [user]
 	name = Luke Thompson
-	email = lucas.thompson@uptake.com
-[url "ssh://git@git.uptake.com:7999/"]
-	insteadOf = https://git.uptake.com/scm/
+	email = name@blah.com
+[url "ssh://git@git.company.com:7999/"]
+	insteadOf = https://git.company.com/scm/
 [lucas]
 	thompson = Luke Thompson
 [push]
@@ -12,8 +12,8 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[url "ssh://git@git.uptake.com:7999/"]
-	insteadOf = https://git.uptake.com/scm/
+[url "ssh://git@git.company.com:7999/"]
+	insteadOf = https://git.company.com/scm/
 
-[credential "https://dev.azure.com"]
+[credential "https://.azure.com"]
 	useHttpPath = true
